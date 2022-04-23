@@ -4,6 +4,7 @@
 <p>
   The Dashboard is an web, desktop and phone application that can be used for things as just a nice background. But more usefull for notes and all of your hyper- and sociallinks.
 </p>
+
 ## The Files
 <br>
 <p>
