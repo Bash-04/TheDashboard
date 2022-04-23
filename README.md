@@ -1,11 +1,10 @@
 # TheDashboard
-<h1>What is TheDashboard?</h1>
+## What is TheDashboard?
 <br>
 <p>
   The Dashboard is an web, desktop and phone application that can be used for things as just a nice background. But more usefull for notes and all of your hyper- and sociallinks.
 </p>
-<hr>
-<h1>The Files</h1>
+## The Files
 <br>
 <p>
   Every platform has its own folder. One for web, one for desktop, one for ios and one for android.
