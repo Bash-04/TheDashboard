@@ -5,6 +5,7 @@
 </p>
 
 ## The Files
+###general
 <p>
   Every platform has its own folder. One for web, one for desktop, one for ios and one for android.
 </p>
@@ -13,4 +14,9 @@
 </p>
 <p>
   Every created and already existing user is put under the folder called "u".
+</p>
+
+###data
+<p>
+  Data will be stored using firebase. We have used JSON files for the datastructures.
 </p>
