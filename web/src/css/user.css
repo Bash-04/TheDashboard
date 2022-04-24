@@ -1,3 +1,15 @@
-*{
-    overflow: hidden;
+.user{
+    position: relative;
+    display: flex;
+    margin: 4vmin 10vmin 10vmin 10vmin;
+}
+.user-information{
+    margin: auto auto auto auto;
+    text-align: left;
+}
+.dashboards{
+    display: flex;
+    flex-direction: column;
+    margin: auto auto auto auto;
+    align-items: center;
 }
