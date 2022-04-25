@@ -11,18 +11,18 @@
     margin-top: 3vh;
     margin-left: 6vw;
     display: flex;
-    color: #fff;
+    color: #4d1ac4;
 }
 .navbar ul li{
     font-size: 4vmin;
     margin-right: 1vw;
 }
 .navbar a{
-    color: #fff;
+    color: #4d1ac4;
     text-decoration: none;
 }
 .navbar a:hover{
-    color: #000;
+    color: #910007;
 }
 
 /*user*/
@@ -44,6 +44,9 @@
     align-items: center;
 }
 .dashboards a{
-    color: #fff;
+    color: #4d1ac4;
     text-decoration: none;
+}
+.dashboards a:hover{
+    color: #910007;
 }
