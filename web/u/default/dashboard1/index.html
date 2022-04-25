@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" consent="with=device-width, initial-scale=1">
+        <title>dashboard</title>
+<!--linking-->
+        <link rel="stylesheet" href="../../../src/css/general.css">
+        <link rel="stylesheet" href="../../../src/css/dashboard.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="dashboard">
+<!--navigation-->
+            <section class="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="../../../">HOME</a></li>
+                        <li><a href="../account/">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+            </section>
+<!--notes-->
+            <section class="noteblock">
+                <h1>notes</h1>
+                <div class="notes">
+                    <textarea name="" rows="13" placeholder="When you refresh this page your notes will be gone. So save them somewhere for yourself."></textarea>
+                </div>
+            </section>
+<!--time/date-->
+            <section class="time-date">
+                <div class="time" id="time"></div>
+                <div class="date" id="date"></div>
+            </section>
+        </section>
+        <script src="../../../src/function/localtime.js"></script>
+        <script src="../../../src/function/localdate.js"></script>
+    </body>
+</html>

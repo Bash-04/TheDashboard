@@ -12,12 +12,61 @@
     margin: 0;
 }
 
-.noteblock{
+/*navigation*/
+.navbar{
+    display: flex;
+    height: 10vh;
+}
+.navbar ul{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    display: flex;
     color: #fff;
-    margin-top: 3.5vmin;
-    margin-left: 5vmin;
+}
+.navbar ul li{
+    font-size: 4vmin;
+    margin-right: 1vw;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #8898f0;
 }
 
+/*noteblock*/
+.noteblock{
+    border-radius: 3vmin;
+    background-color: rgb(192, 180, 126);
+    position: fixed;
+    color: #000;
+    margin-top: 20vh;
+    margin-left: 6vw;
+    height: 65vh;
+    width: 40vh;
+    z-index: 1;
+}
+.noteblock h1{
+    font-size: 5vmin;
+    margin-top: 3vh;
+    text-align: center;
+}
+.notes textarea{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 35vh;
+    border: none;
+    resize: none;
+}
+.notes textarea{
+    font-size: 3vmin;
+    line-height: 4vh;
+    background: linear-gradient(transparent, transparent calc(4vh - 1px), rgb(143, 134, 84) .1vh);
+    background-size: 100% 4vh;
+}
+
+/*time and date of today*/
 .time-date{
     color: #fff;
     position: relative;
@@ -31,16 +80,11 @@
     margin-left: 10vw;
     margin-right: 10vw;
 }
-.datum{
+.date{
     position: relative;
     text-align: center;
     align-items: center;
     font-size: 10vmin;
     margin-left: 10vw;
     margin-right: 10vw;
-}
-.date{
-    position: relative;
-    text-align: center;
-    align-items: center;
 }

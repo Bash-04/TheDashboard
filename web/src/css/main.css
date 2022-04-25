@@ -1,0 +1,65 @@
+/*header*/
+.header{
+    height: 100vh;
+}
+
+/*navigation*/
+.navbar{
+    display: flex;
+    height: 10vh;
+}
+.navbar ul{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    display: flex;
+    color: #fff;
+}
+.navbar ul li{
+    font-size: 4vmin;
+    margin-right: 1vw;
+    list-style: none;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #000;
+}
+
+/*box1*/
+.box1{
+    align-items: center;
+}
+.box1 h1{
+    margin-top: 3vh;
+    color: #fff;
+    font-size: 8vmin;
+    text-align: center;
+}
+.box1 img{
+    position: relative;
+    margin-top: 5vh;
+    height: 60vh;
+    width: 50vw;
+}
+.slideshow{
+    display: flex;
+    align-items: center;
+}
+.slideshow .imgrotator{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+.slideshow button{
+    height: 4vh;
+    width: 4vh;
+}
+.slideshow .left{
+    margin-left: 20vw;
+}
+.slideshow .right{
+    margin-right: 20vw;
+}

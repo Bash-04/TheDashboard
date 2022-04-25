@@ -1,3 +1,31 @@
+*{
+    overflow: hidden;
+}
+
+/*navigation*/
+.navbar{
+    display: flex;
+    height: 10vh;
+}
+.navbar ul{
+    margin-top: 3vh;
+    margin-left: 6vw;
+    display: flex;
+    color: #fff;
+}
+.navbar ul li{
+    font-size: 4vmin;
+    margin-right: 1vw;
+}
+.navbar a{
+    color: #fff;
+    text-decoration: none;
+}
+.navbar a:hover{
+    color: #000;
+}
+
+/*user*/
 .user{
     position: relative;
     display: flex;
@@ -7,9 +35,15 @@
     margin: auto auto auto auto;
     text-align: left;
 }
+
+/*dashboards*/
 .dashboards{
     display: flex;
     flex-direction: column;
     margin: auto auto auto auto;
     align-items: center;
+}
+.dashboards a{
+    color: #fff;
+    text-decoration: none;
 }
