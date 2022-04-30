@@ -18,5 +18,5 @@
 
 <h3>data</h3>
 <p>
-  Data will be stored using firebase. We have used JSON files for the datastructures.
+  There is still being thought about what will be used for the datastorage.
 </p>
