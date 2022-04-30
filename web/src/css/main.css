@@ -38,30 +38,40 @@
     text-align: center;
 }
 .box1 img{
-    position: relative;
+    position: flex;
     margin-top: 5vh;
     height: 60vh;
     width: 50vw;
 }
-.slideshow{
-    display: flex;
+
+/*image rotator*/
+.imagerotator{
+    position: relative;
     align-items: center;
 }
-.slideshow .imgrotator{
-    display: block;
+.imagerotator .slide{
+    display: flex;
     margin-left: auto;
     margin-right: auto;
     width: 50vw;
 }
-.slideshow button{
-    height: 4vh;
-    width: 4vh;
+
+.dots{
+    margin-top: 2vh;
+    text-align: center;
 }
-.slideshow .left{
-    margin-left: 20vw;
+.dot{
+    cursor: pointer;
+    height: 3vmin;
+    width: 3vmin;
+    margin: 0 .2vw;
+    background-color: #8b5ff1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease;
 }
-.slideshow .right{
-    margin-right: 20vw;
+.active, .dot:hover{
+    background-color: #4d1ac4;
 }
 
 /*middenstuk*/

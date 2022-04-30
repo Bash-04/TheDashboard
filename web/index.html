@@ -18,21 +18,25 @@
                     </ul>
                 </nav>
             </section>
+
 <!--main header-->
             <section class="box1">
                 <h1>TheDashboard</h1>
-                <div class="slideshow">
-                    <button class="left" onclick="plusDivs(-1)">&#10094;</button>
+                <div class="imagerotator">
+                    <img class="slide" src="./src/images/nature-3082832__480.jpg">
+                    <img class="slide" src="./src/images/5052518926610576400.jpg">
+                    <img class="slide" src="./src/images/284466.jpg">
 
-                    <img class="imgrotator" src="./src/images/nature-3082832__480.jpg">
-                    <img class="imgrotator" src="./src/images/5052518926610576400.jpg">
-                    <img class="imgrotator" src="./src/images/284466.jpg">
-
-                    <button class="right" onclick="plusDivs(+1)">&#10095;</button>
+                    <div class="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
                 </div>
             </section>
-            <script src="./src/function/slideshow.js"></script>
+            <script src="./src/function/image-rotator.js"></script>
         </section>
+
 <!--middenstuk-->
         <section class="middenstuk">
             <section class="tb">
