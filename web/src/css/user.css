@@ -2,29 +2,6 @@
     overflow: hidden;
 }
 
-/*navigation*/
-.navbar{
-    display: flex;
-    height: 10vh;
-}
-.navbar ul{
-    margin-top: 3vh;
-    margin-left: 6vw;
-    display: flex;
-    color: #4d1ac4;
-}
-.navbar ul li{
-    font-size: 4vmin;
-    margin-right: 1vw;
-}
-.navbar a{
-    color: #4d1ac4;
-    text-decoration: none;
-}
-.navbar a:hover{
-    color: #910007;
-}
-
 /*user*/
 .user{
     position: relative;
@@ -34,6 +11,7 @@
 .user-information{
     margin: auto auto auto auto;
     text-align: left;
+    font-size: 3vmin;
 }
 
 /*dashboards*/
@@ -44,9 +22,13 @@
     align-items: center;
 }
 .dashboards a{
+    font-size: 3vmin;
     color: #4d1ac4;
     text-decoration: none;
 }
 .dashboards a:hover{
     color: #910007;
+}
+#dashboard{
+    margin-bottom: 1vh;
 }

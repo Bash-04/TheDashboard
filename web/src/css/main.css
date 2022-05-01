@@ -3,49 +3,47 @@
     height: 100vh;
 }
 
-/*navigation*/
-.navbar{
-    /*space between - space evenly*/
-    display: flex;
-    height: 10vh;
-}
-.navbar ul{
-    margin-top: 3vh;
-    margin-left: 6vw;
-    display: flex;
-    color: #320a91;
-}
-.navbar ul li{
-    font-size: 4vmin;
-    margin-right: 1vw;
-    list-style: none;
-}
-.navbar a{
-    color: #320a91;
-    text-decoration: none;
-}
-.navbar a:hover{
-    color: #910007;
-}
-
 /*account*/
 .account{
-    display: block;
-    text-align: right;
+    display: flex;
+    margin-top: 3vh;
+}
+.account h1{
+    font-size: 3vmin;
 }
 .sign-up{
+    margin-right: 1vw;
+    height: fit-content;
+    width: fit-content;
+    border: .3vmin solid #000;
+    border-radius: 2vmin;
     color: #910007;
+    padding: .5vmin;
+    cursor: pointer;
+}
+.sign-up:hover{
+    color: #8b5ff1;
 }
 .login{
+    margin-right: 6vw;
+    height: fit-content;
+    width: fit-content;
+    border: .3vmin solid #000;
+    border-radius: 2vmin;
     color: #910007;
+    padding: .5vmin;
+    cursor: pointer;
+}
+.login:hover{
+    color: #8b5ff1;
 }
 
 /*box1*/
 .box1{
     align-items: center;
+    margin-top: 1vh;
 }
 .box1 h1{
-    margin-top: 3vh;
     color: #320a91;
     font-size: 8vmin;
     text-align: center;

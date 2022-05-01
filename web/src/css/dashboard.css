@@ -11,27 +11,11 @@
     margin: 0;
 }
 
-/*navigation*/
-.navbar{
-    display: flex;
-    height: 10vh;
-}
-.navbar ul{
-    margin-top: 3vh;
-    margin-left: 6vw;
-    display: flex;
+.nav a{
     color: #fff;
 }
-.navbar ul li{
-    font-size: 4vmin;
-    margin-right: 1vw;
-}
-.navbar a{
-    color: #fff;
-    text-decoration: none;
-}
-.navbar a:hover{
-    color: #8898f0;
+.nav a:hover{
+    color: #8b5ff1;
 }
 
 /*noteblock*/
