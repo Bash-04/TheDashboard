@@ -11,19 +11,6 @@
 .account h1{
     font-size: 3vmin;
 }
-.sign-up{
-    margin-right: 1vw;
-    height: fit-content;
-    width: fit-content;
-    border: .3vmin solid #000;
-    border-radius: 2vmin;
-    color: #910007;
-    padding: .5vmin;
-    cursor: pointer;
-}
-.sign-up:hover{
-    color: #8b5ff1;
-}
 .login{
     margin-right: 6vw;
     height: fit-content;
