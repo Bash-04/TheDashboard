@@ -4,18 +4,22 @@
             "username" : "default",
             "email" : "name@domain.extension",
             "date of birth" : "01-01-2000",
-            "dashboards" : {
+            "dashboard" : {
             }
         }
     },
 
-    "dashboards": {
+    "dashboard": {
         "default" : {
-            "dashboard1" : {
+            "1" : {
                 "noteblock" : [
                 ]
             },
-            "dashboard2" : {
+            "2" : {
+                "noteblock" : [
+                ]
+            },
+            "3" : {
                 "noteblock" : [
                 ]
             }
