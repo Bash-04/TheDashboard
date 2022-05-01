@@ -6,7 +6,7 @@
 .user{
     position: relative;
     display: flex;
-    margin: 4vmin 10vmin 10vmin 10vmin;
+    margin: 30vh 10vw 10vh 10vw;
 }
 .user-information{
     margin: auto auto auto auto;

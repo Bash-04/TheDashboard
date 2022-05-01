@@ -8,21 +8,23 @@
     display: flex;
     margin-top: 3vh;
 }
-.account h1{
-    font-size: 3vmin;
-}
 .login{
     margin-right: 6vw;
     height: fit-content;
     width: fit-content;
     border: .3vmin solid #000;
     border-radius: 2vmin;
-    color: #910007;
     padding: .5vmin;
     cursor: pointer;
 }
-.login:hover{
-    color: #8b5ff1;
+.login a{
+    color: #320a91;
+    font-size: 3vmin;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #910007;
 }
 
 /*box1*/

@@ -20,11 +20,12 @@
     display: flex;
 }
 .nav ul li{
-    font-size: 4vmin;
     margin-right: 1vw;
     list-style: none;
 }
 .nav a{
+    font-size: 4vmin;
+    font-weight: 600;
     color: #320a91;
     text-decoration: none;
 }
