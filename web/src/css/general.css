@@ -7,12 +7,15 @@
 }
 
 .credit h1{
-    color: #4d1ac4;
+    color: #320a91;
     text-align: center;
 }
 .credit a{
     color: #910007;
     text-decoration: none;
+}
+.credit a:hover{
+    color: #8b5ff1;
 }
 
 @media (orientation: landscape){

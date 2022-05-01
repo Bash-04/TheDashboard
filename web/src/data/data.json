@@ -13,12 +13,10 @@
         "default" : {
             "dashboard1" : {
                 "noteblock" : [
-                    1
                 ]
             },
             "dashboard2" : {
                 "noteblock" : [
-                    1
                 ]
             }
         }
