@@ -22,18 +22,21 @@
 .noteblock{
     border-radius: 3vmin;
     background-color: rgb(192, 180, 126);
-    position: fixed;
+    position: absolute;
+    justify-content: space-around;
     color: #000;
-    margin-top: 20vh;
-    margin-left: 6vw;
     height: 65vh;
     width: 40vh;
-    z-index: 1;
+    z-index: 9;
 }
 .noteblock h1{
     font-size: 5vmin;
     margin-top: 3vh;
     text-align: center;
+    cursor: all-scroll;
+}
+#drag{
+    z-index: 10;
 }
 .notes textarea{
     margin-top: 1vh;
