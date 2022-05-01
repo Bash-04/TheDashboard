@@ -5,6 +5,7 @@
 
 /*navigation*/
 .navbar{
+    /*space between - space evenly*/
     display: flex;
     height: 10vh;
 }
@@ -24,6 +25,18 @@
     text-decoration: none;
 }
 .navbar a:hover{
+    color: #910007;
+}
+
+/*account*/
+.account{
+    display: block;
+    text-align: right;
+}
+.sign-up{
+    color: #910007;
+}
+.login{
     color: #910007;
 }
 
