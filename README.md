@@ -26,5 +26,6 @@ Alpha product: <a href="https://bash-04.github.io/TheDashboard/web/">bash-04.git
   There is still being thought about what will be used for the datastorage.
 </p>
 
+<hr>
 roadmap github pages:
 <a href="https://bash-04.github.io">bash-04</a> / <a href="https://bash-04.github.io/TheDashboard">TheDashboard.md</a> / <a href="https://bash-04.github.io/TheDashboard/web/">ALPHA product</a>
