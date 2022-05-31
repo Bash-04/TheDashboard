@@ -1,5 +1,4 @@
-# 
-<h1 align="center">TheDashboard</h1>
+# <h1 align="center">TheDashboard</h1>
 <p>
   Still under construction.
 </p>
