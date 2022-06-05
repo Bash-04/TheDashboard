@@ -20,7 +20,6 @@
 
 /*noteblock*/
 .noteblock{
-    display: none;
     border-radius: 3vmin;
     background-color: rgb(192, 180, 126);
     position: absolute;
