@@ -38,6 +38,10 @@
 .nav a:hover{
     color: #910007;
 }
+.dot-menu{
+    position: relative;
+    margin: 2vmin 2vmin;
+}
 
 /*credit*/
 .credit h1{
