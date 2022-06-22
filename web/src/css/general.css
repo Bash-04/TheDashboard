@@ -45,7 +45,7 @@
 
 /*menu*/
 .menu{
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     justify-content: space-evenly;
     position: fixed;

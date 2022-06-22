@@ -4,9 +4,9 @@ const menu = document.getElementsByClassName("menu");
 addEventListener("click", displ);
 
 function displ(){
-    if (menu.style.display = "flex") {
-        menu.style.display = "none";
-    } else {
+    if (menu.style.display === "none") {
         menu.style.display = "flex";
+    } else {
+        menu.style.display = "none";
     }
 }
