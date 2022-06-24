@@ -50,22 +50,33 @@
     position: fixed;
     z-index: 3;
     background-color: white;
-    max-height: 350px;
-    max-width: 260px;
+    max-height: 400px;
+    max-width: 300px;
     top: 78px;
     right: 50px;
     overflow-y: scroll;
     border-radius: 10px;
 }
+.menu h1{
+    position: relative;
+}
 .menu #button{
+    text-align: center;
     margin: 8px;
     padding: 2px;
-    max-height: 80px;
-    max-width: 80px;
+    max-height: 69px;
+    width: 70px;
+    max-width: 70px;
 }
 .menu #button img{
+    height: 50px;
+    width: 50px;
     max-height: 50px;
     max-width: 50px;
+}
+.menu #button h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 /*credit*/
