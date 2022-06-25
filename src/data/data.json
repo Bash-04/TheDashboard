@@ -1,0 +1,28 @@
+{
+    "u": {
+        "default" : {
+            "username" : "default",
+            "email" : "name@domain.extension",
+            "date of birth" : "01-01-2000",
+            "dashboard" : {
+            }
+        }
+    },
+
+    "dashboard": {
+        "default" : {
+            "1" : {
+                "noteblock" : [
+                ]
+            },
+            "2" : {
+                "noteblock" : [
+                ]
+            },
+            "3" : {
+                "noteblock" : [
+                ]
+            }
+        }
+    }
+}

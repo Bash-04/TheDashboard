@@ -1,0 +1,101 @@
+/*header*/
+.header{
+    height: 100vh;
+}
+
+/*account*/
+.account{
+    display: flex;
+    margin-top: 3vh;
+}
+.login{
+    margin-right: 6vw;
+    height: fit-content;
+    width: fit-content;
+    border: .3vmin solid #000;
+    border-radius: 2vmin;
+    padding: .5vmin;
+    cursor: pointer;
+}
+.login a{
+    color: #320a91;
+    font-size: 3vmin;
+    font-weight: 600;
+    text-decoration: none;
+}
+.login a:hover{
+    color: #910007;
+}
+
+/*box1*/
+.box1{
+    align-items: center;
+    margin-top: 1vh;
+}
+.box1 h1{
+    color: #320a91;
+    font-size: 8vmin;
+    text-align: center;
+}
+.box1 img{
+    position: flex;
+    margin-top: 5vh;
+    height: 60vh;
+    width: 50vw;
+}
+
+/*image slider*/
+.imageslider{
+    position: relative;
+    align-items: center;
+}
+.imageslider .slide{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+}
+
+.dots{
+    margin-top: 2vh;
+    text-align: center;
+}
+.dot{
+    cursor: pointer;
+    height: 3vmin;
+    width: 3vmin;
+    margin: 0 .2vw;
+    background-color: #8b5ff1;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color .6s ease;
+}
+.active, .dot:hover{
+    background-color: #320a91;
+}
+
+/*middenstuk*/
+.middenstuk{
+    height: 90vh;
+    margin-top: 10vh;
+}
+.tb{
+    margin-top: 5vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+.tb h1{
+    color: #320a91;
+    font-size: 6vmin;
+}
+.tb p{
+    color: #320a91;
+    font-size: 4vmin;
+}
+.tb a{
+    color: #910007;
+    font-size: 4vmin;
+}
+.tb a:hover{
+    color: #8b5ff1;
+}

@@ -1,0 +1,78 @@
+*{
+    background: transparent;
+    overflow: hidden;
+}
+
+.dashboard{
+    height: 100vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+.nav a{
+    color: #fff;
+}
+.nav a:hover{
+    color: #8b5ff1;
+}
+
+/*noteblock*/
+.noteblock{
+    border-radius: 3vmin;
+    background-color: rgb(192, 180, 126);
+    position: absolute;
+    justify-content: space-around;
+    color: #000;
+    height: 65vh;
+    width: 40vh;
+    z-index: 9;
+}
+.noteblock h1{
+    font-size: 5vmin;
+    margin-top: 3vh;
+    text-align: center;
+    cursor: all-scroll;
+}
+#drag{
+    z-index: 10;
+}
+.notes textarea{
+    margin-top: 1vh;
+    margin-left: 1vw;
+    width: 35vh;
+    border: none;
+    resize: none;
+}
+.notes textarea{
+    font-size: 3vmin;
+    line-height: 4vh;
+    background: linear-gradient(transparent, transparent calc(4vh - 1px), rgb(143, 134, 84) .1vh);
+    background-size: 100% 4vh;
+}
+
+/*time and date of today*/
+.time-date{
+    color: #fff;
+    position: relative;
+    margin-top: 15vh;
+}
+.time{
+    cursor: default;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 30vmin;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+.date{
+    cursor: default;
+    position: relative;
+    text-align: center;
+    align-items: center;
+    font-size: 10vmin;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}

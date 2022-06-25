@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+    <head>
+        <meta name="viewport" consent="with=device-width, initial-scale=1">
+        <title>dashboard</title>
+<!--linking-->
+        <link rel="stylesheet" href="../../../src/css/general.css">
+        <link rel="stylesheet" href="../../../src/css/dashboard.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <section class="dashboard" style="background-image: url('../../../src/images/5052518926610576400.jpg');">
+<!--navigation-->
+            <section class="navbar">
+    <!--nav-->
+                <section class="nav">
+                <nav>
+                    <ul>
+                        <li><a href="../../../">HOME</a></li>
+                        <li><a href="../account/">ACCOUNT</a></li>
+                    </ul>
+                </nav>
+                </section>
+                <div class="dotmenu">
+                    <img id="dotmenu" src="../../../src/images/dot-menu.png" style="max-height: 5vmin; max-width: 5vmin;">
+                </div>
+            </section>
+            
+<!--script dotmenu-->
+<script src="../../../src/function/dotmenu.js"></script>
+
+<!--menu-->
+            <section class="menu" style="display: none;" id="menu">
+                <div id="button">
+                    <a href="../account/"><img src="../../../src/images/menu/account.png"></a>
+                    <h5>Account</h5>
+                </div>
+                <div id="button">
+                    <div id="settings"><img src="../../../src/images/menu/settings.png"></div>
+                    <h5>Settings</h5>
+                </div>
+                <div id="button">
+                    <a href="https://mail.google.com" target="_blank"><img src="../../../src/images/menu/gmail.png"></a>
+                    <h5>Gmail</h5>
+                </div>
+                <div id="button">
+                    <a href="https://google.com" target="_blank"><img src="../../../src/images/menu/google.png"></a>
+                    <h5>Google</h5>
+                </div>
+                <div id="button">
+                    <a href="https://youtube.com" target="_blank"><img src="../../../src/images/menu/youtube.png"></a>
+                    <h5>YouTube</h5>
+                </div>
+                <div id="button">
+                    <a href="https://open.spotify.com" target="_blank"><img src="../../../src/images/menu/spotify.webp"></a>
+                    <h5>Spotify</h5>
+                </div>
+                <div id="button">
+                    <a href="https://facebook.com" target="_blank"><img src="../../../src/images/menu/facebook.png"></a>
+                    <h5>FaceBook</h5>
+                </div>
+                <div id="button">
+                    <a href="https://instagram.com" target="_blank"><img src="../../../src/images/menu/instagram.png"></a>
+                    <h5>Instagram</h5>
+                </div>
+                <div id="button">
+                    <a href="https://twitter.com" target="_blank"><img src="../../../src/images/menu/twitter.png"></a>
+                    <h5>Twitter</h5>
+                </div>
+                <div id="button">
+                    <a href="https://tiktok.com" target="_blank"><img src="../../../src/images/menu/tiktok.webp"></a>
+                    <h5>TikTok</h5>
+                </div>
+                <div id="button">
+                    <a href="https://twitch.tv" target="_blank"><img src="../../../src/images/menu/twitch.webp"></a>
+                    <h5>Twitch</h5>
+                </div>
+                <div id="button">
+                    <a href="https://reddit.com" target="_blank"><img src="../../../src/images/menu/reddit.png"></a>
+                    <h5>Reddit</h5>
+                </div>
+                <div id="button">
+                    <a href="https://linkedin.com" target="_blank"><img src="../../../src/images/menu/linkedin.jpg"></a>
+                    <h5>LinkedIn</h5>
+                </div>
+                <div id="button">
+                    <a href="https://discord.com" target="_blank"><img src="../../../src/images/menu/discord.webp"></a>
+                    <h5>Discord</h5>
+                </div>
+                <div id="button">
+                    <a href="https://github.com" target="_blank"><img src="../../../src/images/menu/github.png"></a>
+                    <h5>Github</h5>
+                </div>
+                <div id="button">
+                    <a href="https://github.com/Bash-04/" target="_blank"><img src="../../../src/images/menu/bash.jpeg"></a>
+                    <h5>Developer</h5>
+                </div>
+            </section>
+
+<!--draggable noteblock-->
+            <section class="noteblock" id="draggable" style="display: none; top: 31vh; left: 2vw;">
+                <h1 id="drag">notes</h1>
+                <div class="notes">
+                    <textarea name="" rows="13" placeholder="When you refresh this page your notes will be gone. So save them somewhere for yourself."></textarea>
+                </div>
+            </section>
+            <script src="../../../src/function/draggable-div.js"></script>
+
+<!--time/date-->
+            <section class="time-date">
+                <div class="time" id="time"></div>
+                <div class="date" id="date"></div>
+            </section>
+        </section>
+        <script src="../../../src/function/localtime.js"></script>
+        <script src="../../../src/function/localdate.js"></script>
+    </body>
+</html>
