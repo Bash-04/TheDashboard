@@ -35,6 +35,15 @@
     text-align: center;
     cursor: all-scroll;
 }
+.noteblock h5{
+    position: relative;
+    font-size: medium;
+    margin: 5px;
+    margin-bottom: -20px;
+    cursor: pointer;
+    height: fit-content;
+    width: fit-content;
+}
 #drag{
     z-index: 10;
 }

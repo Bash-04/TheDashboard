@@ -80,6 +80,23 @@
     cursor: default;
 }
 
+.menu #notedopen{
+    text-align: center;
+    margin: 8px;
+    padding: 2px;
+    height: 50px;
+    max-height: 50px;
+    width: 250px;
+    max-width: 250px;
+    border: solid rgb(192, 180, 126);
+    border-radius: 20px;
+}
+.menu #notedopen h1{
+    top: 15%;
+    font-size: xx-large;
+    cursor: pointer;
+}
+
 /*credit*/
 .credit h1{
     color: #320a91;

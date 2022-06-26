@@ -43,6 +43,9 @@
                     <a href="https://mail.google.com" target="_blank"><img src="../../../src/images/menu/gmail.png"></a>
                     <h5>Gmail</h5>
                 </div>
+                <div id="notedopen">
+                    <h1>Noted</h1>
+                </div>
                 <div id="button">
                     <a href="https://google.com" target="_blank"><img src="../../../src/images/menu/google.png"></a>
                     <h5>Google</h5>
@@ -98,13 +101,15 @@
             </section>
 
 <!--draggable noteblock-->
-            <section class="noteblock" id="draggable" style="display: none; top: 31vh; left: 2vw;">
-                <h1 id="drag">notes</h1>
+            <section class="noteblock" id="noted" style="display: none; top: 31vh; left: 2vw;">
+                <h5 id="notedclose">close</h5>
+                <h1 id="drag">Noted</h1>
                 <div class="notes">
                     <textarea name="" rows="13" placeholder="When you refresh this page your notes will be gone. So save them somewhere for yourself."></textarea>
                 </div>
             </section>
             <script src="../../../src/function/draggable-div.js"></script>
+            <script src="../../../src/function/noted.js"></script>
 
 <!--time/date-->
             <section class="time-date">
