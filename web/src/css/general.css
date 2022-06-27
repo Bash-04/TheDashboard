@@ -41,6 +41,7 @@
 .dotmenu{
     position: relative;
     margin: 2vmin 8vmin;
+    cursor: pointer;
 }
 
 /*menu*/
@@ -81,6 +82,8 @@
 }
 
 .menu #notedopen{
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
     margin: 8px;
     padding: 2px;
@@ -92,9 +95,16 @@
     border-radius: 20px;
 }
 .menu #notedopen h1{
+    margin-left: 35px;
     top: 15%;
     font-size: xx-large;
     cursor: pointer;
+}
+.menu #notedopen img{
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40px;
+    height: 40px;
 }
 
 /*credit*/

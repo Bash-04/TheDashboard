@@ -25,20 +25,22 @@
     position: absolute;
     justify-content: space-around;
     color: #000;
-    height: 65vh;
-    width: 40vh;
+    height: 400px;
+    width: 250px;
     z-index: 9;
 }
 .noteblock h1{
-    font-size: 5vmin;
-    margin-top: 3vh;
-    text-align: center;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 80px;
     cursor: all-scroll;
+    height: 32px;
+    width: 90px;
 }
 .noteblock h5{
     position: relative;
     font-size: medium;
-    margin: 5px;
+    margin: 7px;
     margin-bottom: -20px;
     cursor: pointer;
     height: fit-content;
@@ -48,17 +50,18 @@
     z-index: 10;
 }
 .notes textarea{
-    margin-top: 1vh;
-    margin-left: 1vw;
-    width: 35vh;
+    overflow-y: visible;
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 210px;
     border: none;
     resize: none;
 }
 .notes textarea{
-    font-size: 3vmin;
-    line-height: 4vh;
-    background: linear-gradient(transparent, transparent calc(4vh - 1px), rgb(143, 134, 84) .1vh);
-    background-size: 100% 4vh;
+    font-size: 20px;
+    line-height: 25px;
+    background: linear-gradient(transparent, transparent calc(25px - 1px), rgb(143, 134, 84) .1vh);
+    background-size: 100% 25px;
 }
 
 /*time and date of today*/
