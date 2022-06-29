@@ -58,9 +58,6 @@
     overflow-y: scroll;
     border-radius: 10px;
 }
-.menu h1{
-    position: relative;
-}
 .menu #button{
     text-align: center;
     margin: 8px;
@@ -76,6 +73,27 @@
     max-width: 50px;
 }
 .menu #button h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    cursor: default;
+}
+
+.menu #opensettings{
+    text-align: center;
+    margin: 8px;
+    padding: 2px;
+    max-height: 69px;
+    width: 70px;
+    max-width: 70px;
+    cursor: pointer;
+}
+.menu #opensettings img{
+    height: 50px;
+    width: 50px;
+    max-height: 50px;
+    max-width: 50px;
+}
+.menu #opensettings h5{
     overflow: hidden;
     text-overflow: ellipsis;
     cursor: default;
@@ -106,6 +124,46 @@
     margin-left: 5px;
     width: 40px;
     height: 40px;
+}
+
+/*settings*/
+.settings{
+    z-index: 9999;
+    position: fixed;
+    background-color: #fff;
+    top: 2vh;
+    left: 1vw;
+    height: 96vh;
+    width: 98vw;
+}
+.settings .topbar{
+    display: flex;
+    position: fixed;
+    height: 5vh;
+    width: 98vw;
+}
+.settings .topbar h5{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: .5vh;
+    margin-left: 10px;
+}
+.settings .topbar #closesettings{
+    margin-left: auto;
+    border: solid rgb(80, 80, 80) 1px;
+    border-top: none;
+    border-right: none;
+    height: 26px;
+    width: 45px;
+    font-size: larger;
+}
+.settings .topbar #closesettings:hover{
+    transition: .2s;
+    background-color: rgb(221, 39, 39);
+}
+.settings hr{
+    width: 100%;
+    margin-top: 4vh;
 }
 
 /*credit*/
