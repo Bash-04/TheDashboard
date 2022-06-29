@@ -69,6 +69,7 @@
     color: #fff;
     position: relative;
     margin-top: 15vh;
+    cursor: default;
 }
 .time{
     cursor: default;
