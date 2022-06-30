@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     </head>
     <body>
-        <section class="dashboard" style="background-image: url('../../../src/images/background/bran-castle-romania.jpg');">
+        <section class="dashboard" id="dashb-backgr" style="background-image: url('../../../src/images/background/bran-castle-romania.jpg');">
 <!--navigation-->
             <section class="navbar">
     <!--nav-->
@@ -102,13 +102,57 @@
 </section>
 
 <!--settings-->
-<section class="settings" id="settings" style="display: none;">
+<section class="settings" id="settings" style="display: block;">
     <div class="topbar">
         <h5>settings</h5>
         <button id="closesettings">x</button>
     </div>
-    <hr>
-    
+    <div class="hr">
+        <hr>
+    </div>
+    <!--mid section-->
+    <section class="mid">
+        <!--sidebar-->
+        <div class="sidebar">
+            <div class="sidebarbtn" id="open-background-changer">
+                <h4>Background-changer</h4>
+            </div>
+            <div class="sidebarbtn" id="open-appearancetwo">
+                <h4>Appearance 2</h4>
+            </div>
+            <div class="sidebarbtn" id="open-appearancethree">
+                <h4>Appearance 3</h4>
+            </div>
+            <hr>
+            <div class="sidebarbtn" id="open-reset-settings">
+                <h4>Reset settings</h4>
+            </div>
+            <hr>
+            <div class="sidebarbtn" id="open-dev">
+                <h4>Developer</h4>
+            </div>
+        </div>
+        <section class="settingsdisplay">
+            <div id="background-changer" style="display: block;">
+                <h2>Background-changer</h2>
+            </div>
+            <div id="appearancetwo" style="display: none;">
+                <h2>Appearance 2</h2>
+            </div>
+            <div id="appearancethree" style="display: none;">
+                <h2>Appearance 3</h2>
+            </div>
+            <div id="reset-settings" style="display: none;">
+                <h2>Reset settings</h2>
+            </div>
+            <div id="dev" style="display: none;">
+                <h2>Developer</h2>
+                <a href="https://github.com/bash-04" target="_blank">
+                    <h3>Bas Bakens</h3>
+                </a>
+            </div>
+        </section>
+    </section>
 </section>
 
 <script src="../../../src/function/settings.js"></script>

@@ -161,9 +161,59 @@
     background-color: rgb(221, 39, 39);
     cursor: pointer;
 }
-.settings hr{
+.settings .hr hr{
     width: 100%;
     margin-top: 25px;
+}
+/*settings mid section*/
+.settings .mid{
+    display: flex;
+    flex-direction: row;
+    height: 91vh;
+    width: 98vw;
+}
+.settings .mid .sidebar{
+    margin-top: 10px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    align-self: baseline;
+}
+.settings .mid .sidebar .sidebarbtn{
+    color: #000;
+    height: 30px;
+    cursor: pointer;
+}
+.settings .mid .sidebar .sidebarbtn:hover{
+    color: red;
+    height: 30px;
+}
+.settings .mid .sidebar .sidebarbtn h4{
+    font-size: medium;
+    font-weight: 600;
+}
+
+.settings .mid .sidebar hr{
+    width: 180px;
+    margin-bottom: 10px;
+}
+.settings .mid a{
+    color: #000;
+    text-decoration: none;
+}
+.settings .mid a:hover{
+    color: red;
+}
+
+/*settingsdisplay*/
+.settings .mid .settingsdisplay{
+    overflow-y: auto;
+    overflow-x: none;
+}
+.settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
+    margin-top: 10px;
+    margin-left: 10px;
 }
 
 /*credit*/
