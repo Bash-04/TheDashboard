@@ -151,9 +151,7 @@
 }
 .settings .topbar #closesettings{
     margin-left: auto;
-    border: solid rgb(80, 80, 80) 1px;
-    border-top: none;
-    border-right: none;
+    border: none;
     height: 26px;
     width: 45px;
     font-size: larger;
