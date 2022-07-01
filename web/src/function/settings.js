@@ -28,7 +28,7 @@ function closesettings(){
     document.getElementById("open-reset-settings").addEventListener("click", openresetsettings)
     document.getElementById("open-dev").addEventListener("click", opendev)
 
-        //background-changer
+        //open display background-changer
         function openbackgroundchanger(){
             var bc = document.getElementById("background-changer")
             var at = document.getElementById("appearancetwo")
@@ -52,8 +52,70 @@ function closesettings(){
                 dev.style.display = "none";
             }
         }
+            //colors
+                //addEventListener click
+                document.getElementById("red").addEventListener("click", red)
+                document.getElementById("orange").addEventListener("click", orange)
+                document.getElementById("yellow").addEventListener("click", yellow)
+                document.getElementById("green").addEventListener("click", green)
+                document.getElementById("cyan").addEventListener("click", cyan)
+                document.getElementById("blue").addEventListener("click", blue)
+                document.getElementById("purple").addEventListener("click", purple)
+                document.getElementById("magenta").addEventListener("click", magenta)
+                document.getElementById("pink").addEventListener("click", pink)
+                document.getElementById("black").addEventListener("click", black)
+                document.getElementById("white").addEventListener("click", white)
+                document.getElementById("color-picker").addEventListener("click", colorpicker)
+                
+                //change backgr color functions
+                function red(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: red;");
+                }
+                function orange(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: orange;");
+                }
+                function yellow(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: yellow;");
+                }
+                function green(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: green;");
+                }
+                function cyan(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: cyan;");
+                }
+                function blue(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: blue;");
+                }
+                function purple(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: purple;");
+                }
+                function magenta(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: magenta;");
+                }
+                function pink(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: pink;");
+                }
+                function black(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: gray;");
+                }
+                function white(){
+                    var dashb = document.getElementById("dashb-backgr")
+                    if (dashb.style = "background-color: gray;");
+                }
+                function colorpicker(){
+                }
 
-        //appearance 2
+        //open display appearance 2
         function openappearancetwo(){
             var bc = document.getElementById("background-changer")
             var at = document.getElementById("appearancetwo")
@@ -78,7 +140,7 @@ function closesettings(){
             }
         }
 
-        //appearance 3
+        //open display appearance 3
         function openappearancethree(){
             var bc = document.getElementById("background-changer")
             var at = document.getElementById("appearancetwo")
@@ -103,7 +165,7 @@ function closesettings(){
             }
         }
 
-        //reset-settings
+        //open display reset-settings
         function openresetsettings(){
             var bc = document.getElementById("background-changer")
             var at = document.getElementById("appearancetwo")
@@ -128,7 +190,7 @@ function closesettings(){
             }
         }
 
-        //dev
+        //open display dev
         function opendev(){
             var bc = document.getElementById("background-changer")
             var at = document.getElementById("appearancetwo")

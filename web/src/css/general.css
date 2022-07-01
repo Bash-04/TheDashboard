@@ -165,56 +165,120 @@
     width: 100%;
     margin-top: 25px;
 }
-/*settings mid section*/
-.settings .mid{
-    display: flex;
-    flex-direction: row;
-    height: 91vh;
-    width: 98vw;
-}
-.settings .mid .sidebar{
-    margin-top: 10px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: baseline;
-    align-self: baseline;
-}
-.settings .mid .sidebar .sidebarbtn{
-    color: #000;
-    height: 30px;
-    cursor: pointer;
-}
-.settings .mid .sidebar .sidebarbtn:hover{
-    color: red;
-    height: 30px;
-}
-.settings .mid .sidebar .sidebarbtn h4{
-    font-size: medium;
-    font-weight: 600;
-}
+    /*settings mid section*/
+    .settings .mid{
+        display: flex;
+        flex-direction: row;
+        height: 91vh;
+        width: 98vw;
+    }
+    .settings .mid .sidebar{
+        margin-top: 10px;
+        margin-left: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: baseline;
+        align-self: baseline;
+    }
+    .settings .mid .sidebar .sidebarbtn{
+        color: #000;
+        height: 30px;
+        cursor: pointer;
+    }
+    .settings .mid .sidebar .sidebarbtn:hover{
+        color: red;
+        height: 30px;
+    }
+    .settings .mid .sidebar .sidebarbtn h4{
+        font-size: medium;
+        font-weight: 600;
+    }
 
-.settings .mid .sidebar hr{
-    width: 180px;
-    margin-bottom: 10px;
-}
-.settings .mid a{
-    color: #000;
-    text-decoration: none;
-}
-.settings .mid a:hover{
-    color: red;
-}
+    .settings .mid .sidebar hr{
+        width: 180px;
+        margin-bottom: 10px;
+    }
+    .settings .mid a{
+        color: #000;
+        text-decoration: none;
+    }
+    .settings .mid a:hover{
+        color: red;
+    }
+        /*settingsdisplay*/
+        .settings .mid .settingsdisplay{
+            overflow-y: auto;
+            overflow-x: none;
+        }
+        .settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
+            margin-top: 10px;
+            margin-left: 10px;
+        }
+        .settings .mid .settingsdisplay h2{
+            font-size: x-large;
+        }
+        .settings .mid .settingsdisplay h3{
+            font-size: larger;
+        }
+            /*background-changer*/
+            .settingsdisplay .color-backgr{
+                display: -webkit-box;
+                flex-wrap: wrap;
+                margin: 10px;
+                margin-left: 0px;
+                height: 240px;
+                width: 700px;
+            }
+            .settingsdisplay .color-backgr .color{
+                margin-left: 10px;
+                height: 100px;
+                width: 100px;
+                border: solid #000 3px;
+                border-radius: 100px;
+            }
+            .settingsdisplay .color-backgr .color:hover{
+                margin-top: 3px;
+            }
+                /*color-backgr*/
+                .color-backgr #red{
+                    background-color: red;
+                }
+                .color-backgr #orange{
+                    background-color: orange;
+                }
+                .color-backgr #yellow{
+                    background-color: yellow;
+                }
+                .color-backgr #green{
+                    background-color: green;
+                }
+                .color-backgr #cyan{
+                    background-color: cyan;
+                }                
+                .color-backgr #blue{
+                    background-color: blue;
+                }
+                .color-backgr #purple{
+                    background-color: purple;
+                }
+                .color-backgr #magenta{
+                    background-color: magenta;
+                }
+                .color-backgr #pink{
+                    background-color: pink;
+                }
+                .color-backgr #black{
+                    background-color: gray;
+                }
+                .color-backgr #white{
+                    background-color: gray;
+                }
+                .color-backgr #color-picker img{
+                    margin: 20px;
+                    height: 60px;
+                    width: 60px;
+                }
 
-/*settingsdisplay*/
-.settings .mid .settingsdisplay{
-    overflow-y: auto;
-    overflow-x: none;
-}
-.settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
-    margin-top: 10px;
-    margin-left: 10px;
-}
 
 /*credit*/
 .credit h1{
