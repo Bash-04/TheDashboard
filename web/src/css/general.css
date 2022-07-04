@@ -114,8 +114,8 @@
     cursor: pointer;
 }
 .menu #notedopen h1{
-    margin-left: 35px;
-    top: 15%;
+    margin-left: 36px;
+    margin-top: 8px;
     font-size: xx-large;
     cursor: pointer;
 }
@@ -208,7 +208,7 @@
         /*settingsdisplay*/
         .settings .mid .settingsdisplay{
             overflow-y: auto;
-            overflow-x: none;
+            overflow-x: auto;
         }
         .settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
             margin-top: 10px;
@@ -222,12 +222,15 @@
         }
             /*background-changer*/
             .settingsdisplay .color-backgr{
+                overflow: auto;
+                justify-content: center;
                 display: -webkit-box;
                 flex-wrap: wrap;
                 margin: 10px;
                 margin-left: 0px;
                 height: 240px;
-                width: 700px;
+                width: 720px;
+                max-width: -webkit-fill-available;
             }
             .settingsdisplay .color-backgr .color{
                 margin-left: 10px;
@@ -235,6 +238,7 @@
                 width: 100px;
                 border: solid #000 3px;
                 border-radius: 100px;
+                cursor: pointer;
             }
             .settingsdisplay .color-backgr .color:hover{
                 margin-top: 3px;
