@@ -209,10 +209,14 @@
         .settings .mid .settingsdisplay{
             overflow-y: auto;
             overflow-x: auto;
+            width: 100vw;
         }
-        .settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
+        .settings .mid .settingsdisplay h1, .settings .mid .settingsdisplay h2, .settings .mid .settingsdisplay h3{
             margin-top: 10px;
             margin-left: 10px;
+        }
+        .settings .mid .settingsdisplay h1{
+            font-size: xx-large;
         }
         .settings .mid .settingsdisplay h2{
             font-size: x-large;
@@ -220,13 +224,13 @@
         .settings .mid .settingsdisplay h3{
             font-size: larger;
         }
-            /*background-changer*/
+            /*background-changer color*/
             .settingsdisplay .color-backgr{
                 overflow: auto;
                 justify-content: center;
                 display: -webkit-box;
                 flex-wrap: wrap;
-                margin: 10px;
+                margin-top: 10px;
                 margin-left: 0px;
                 height: 240px;
                 width: 720px;
@@ -241,7 +245,7 @@
                 cursor: pointer;
             }
             .settingsdisplay .color-backgr .color:hover{
-                margin-top: 3px;
+                margin-top: 2px;
             }
                 /*color-backgr*/
                 .color-backgr #red{
@@ -282,6 +286,34 @@
                     height: 60px;
                     width: 60px;
                 }
+
+            /*background-changer image*/
+            .settingsdisplay .image-backgr{
+                overflow: auto;
+                justify-content: center;
+                display: -webkit-box;
+                flex-wrap: wrap;
+                margin-top: 10px;
+                margin-left: 0px;
+                height: 270px;
+                width: 800px;
+                max-width: -webkit-fill-available;
+            }
+            .settingsdisplay .image-backgr .image{
+                margin-left: 10px;
+                height: 120px;
+                width: 240px;
+                border: solid #000 2px;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+            .settingsdisplay .image-backgr .image:hover{
+                margin-top: 2px;
+            }
+            .settingsdisplay .image-backgr img{
+                height: 120px;
+                width: 240px;
+            }
 
 
 /*credit*/
