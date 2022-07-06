@@ -42,6 +42,7 @@
     position: relative;
     margin: 2vmin 8vmin;
     cursor: pointer;
+    user-select: none;
 }
 
 /*menu*/
