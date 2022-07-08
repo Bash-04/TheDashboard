@@ -282,7 +282,7 @@
                 .color-backgr #white{
                     background-color: gray;
                 }
-                .color-backgr #color-picker img{
+                .color-backgr #opencolorpicker img{
                     margin: 20px;
                     height: 60px;
                     width: 60px;

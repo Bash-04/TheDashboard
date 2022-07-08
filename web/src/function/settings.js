@@ -66,7 +66,8 @@ function closesettings(){
                     document.getElementById("pink").addEventListener("click", pink)
                     document.getElementById("black").addEventListener("click", black)
                     document.getElementById("white").addEventListener("click", white)
-                    document.getElementById("color-picker").addEventListener("click", colorpicker)
+                    document.getElementById("opencolorpicker").addEventListener("click", opencp)
+                    document.getElementById("closecolorpicker").addEventListener("click", closecp)
                     
                     //change backgr color functions
                     function red(){
@@ -114,7 +115,17 @@ function closesettings(){
                         if (dashb.style = "background-color: gray;");
                     }
                     //color-picker
-                    function colorpicker(){
+                    function opencp(){
+                        var x = document.getElementById("colorpicker")
+                        if (x.style.display = "none") {
+                            x.style.display = "block";
+                        }
+                    }
+                    function closecp(){
+                        var x = document.getElementById("colorpicker")
+                        if (x.style.display = "block") {
+                            x.style.display = "none";
+                        }
                     }
 
                 //image

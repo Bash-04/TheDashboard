@@ -7,6 +7,8 @@
         <link rel="stylesheet" href="../../../src/css/general.css">
         <link rel="stylesheet" href="../../../src/css/dashboard.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="../../../src/css/colorjoe.css">
+        <script src="../../../src/function/colorjoe.min.js"></script>
     </head>
     <body>
         <section class="dashboard" id="dashb-backgr" style="background-image: url('../../../src/images/background/bran-castle-romania.jpg');">
@@ -102,7 +104,7 @@
 </section>
 
 <!--settings-->
-<section class="settings" id="settings" style="display: none;">
+<section class="settings" id="settings" style="display: block;">
     <div class="topbar">
         <h5>settings</h5>
         <button id="closesettings">x</button>
@@ -151,7 +153,7 @@
                     <div class="color" id="pink"></div>
                     <div class="color" id="black"></div>
                     <div class="color" id="white"></div>
-                    <div class="color" id="color-picker"><img src="../../../src/icons/pipet.png"></div>
+                    <div class="color" id="opencolorpicker"><img src="../../../src/icons/pipet.png"></div>
                 </div>
                 <h3>Images</h3>
                 <div class="image-backgr">
@@ -163,6 +165,27 @@
                     <div class="image" id="hero"><img src="../../../src/images/background/hero.jpg"></div>
                 </div>
             </div>
+            <section id="colorpicker" style="display: none;">
+                <div class="topbar">
+                    <h6 id="closecolorpicker">CLOSE</h6>
+                </div>
+                <div class="container">
+                    <div class="colorjoe"></div>
+                    <div class="config">
+                        <div class="config-title">Selected Color</div>
+                        <div class="selected-color-text"></div>
+                        <div class="selected-color"></div>
+                        <div class="saved-color-title">Saved Colors</div>
+                            <div class="saved-color"></div>
+                            <div class="saved-color"></div>
+                            <div class="saved-color"></div>
+                            <div class="saved-color"></div>
+                            <div class="saved-color"></div>
+                            <div class="saved-color"></div>
+                    </div>
+                </div>
+            </section>
+            <script src="../../../src/function/config-colorjoe.js"></script>
             <div id="menu-editor" style="display: none;">
                 <h2>Menu</h2>
             </div>
