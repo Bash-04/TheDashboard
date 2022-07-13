@@ -167,6 +167,7 @@
             <section id="colorpicker" style="display: none;">
                 <div class="topbar">
                     <h6 id="closecolorpicker">CLOSE</h6>
+                    <h6 id="openinfobox">HELP</h6>
                 </div>
                 <div class="container">
                     <div class="colorjoe"></div>
@@ -175,15 +176,32 @@
                         <div class="selected-color-text"></div>
                         <div class="selected-color"></div>
                         <div class="saved-color-title">Saved Colors</div>
-                            <div class="saved-color"></div>
-                            <div class="saved-color"></div>
-                            <div class="saved-color"></div>
-                            <div class="saved-color"></div>
-                            <div class="saved-color"></div>
-                            <div class="saved-color"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
+                            <div class="saved-color" oncontextmenu="return false"></div>
                     </div>
                 </div>
             </section>
+
+            <!--Information-->
+            <section id="information-box" style="display: none;">
+                <div class="topbar">
+                    <h6 id="closeinfobox">CLOSE</h6>
+                </div>
+                <div class="information">
+                    <div class="mouse-info">
+                        <h5>Left mouse click</h5>
+                        <p>Select a saved color by clicking on it.</p>
+                        <br>
+                        <h5>Right mouse click</h5>
+                        <p>Save a color by right clicking on the box you want it to be saved in.</p>
+                    </div>
+                </div>
+            </section>
+
             <script src="../../../src/function/config-colorjoe.js"></script>
             <div id="menu-editor" style="display: none;">
                 <h2>Menu</h2>

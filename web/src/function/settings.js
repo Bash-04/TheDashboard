@@ -68,6 +68,8 @@ function closesettings(){
                     document.getElementById("white").addEventListener("click", white)
                     document.getElementById("opencolorpicker").addEventListener("click", opencp)
                     document.getElementById("closecolorpicker").addEventListener("click", closecp)
+                    document.getElementById("openinfobox").addEventListener("click", openib)
+                    document.getElementById("closeinfobox").addEventListener("click", closeib)
                     
                     //change backgr color functions
                     function red(){
@@ -127,6 +129,19 @@ function closesettings(){
                             x.style.display = "none";
                         }
                     }
+                        //info box
+                        function openib(){
+                            var x = document.getElementById("information-box")
+                            if (x.style.display = "none") {
+                                x.style.display = "block";
+                            }
+                        }
+                        function closeib(){
+                            var x = document.getElementById("information-box")
+                            if (x.style.display = "block") {
+                                x.style.display = "none";
+                            }
+                        }
 
                 //image
                     //addEventListeners click

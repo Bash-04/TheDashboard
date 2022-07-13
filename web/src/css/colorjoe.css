@@ -11,6 +11,13 @@
     width: 480px;
     padding: 5px;
 }
+#colorpicker .topbar{
+    z-index: 100;
+    height: 12px;
+    max-width: 480px;
+    display: flex;
+    justify-content: space-between;
+}
 #colorpicker .topbar h6{
     cursor: pointer;
 }

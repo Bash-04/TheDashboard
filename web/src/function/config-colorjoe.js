@@ -17,7 +17,7 @@ class ColorPicker {
             this.showSavedColor(el, this.savedColors[i]);
 
             el.addEventListener("mouseup", e => {
-                if (e.button == 1) {
+                if (e.button == 2) {
                     this.saveColor(this.selectedColor, i);
                     this.showSavedColor(el, this.selectedColor);
                 }
@@ -26,6 +26,7 @@ class ColorPicker {
             });
         });
     }
+    
 
     setSelectedColor(color, skipCjUpdate = false) {
         this.selectedColor = color;

@@ -320,6 +320,32 @@
                 width: 240px;
             }
 
+    #information-box{
+        position: fixed;
+        height: 150px;
+        width: 180px;
+        border: solid #bbb 1px;
+        border-radius: 5px;
+        background-color: white;
+        margin-top: -580px;
+        margin-left: 600px;
+    }
+    #information-box .topbar{
+        height: 15px;
+        padding: 5px;
+    }
+    #information-box .topbar h6{
+        cursor: pointer;
+    }
+    .information{
+        margin-top: 15px;
+        padding: 5px;
+    }
+    .information p{
+        font-size: small;
+    }
+
+
 
 /*credit*/
 .credit h1{
